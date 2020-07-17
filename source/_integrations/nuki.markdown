@@ -37,6 +37,11 @@ token:
   description: The token that was defined when setting up the bridge.
   required: true
   type: string
+secure:
+  description: Set to false when using the Nuki software bridge.
+  required: false
+  default: true
+  type: boolean
 {% endconfiguration %}
 
 ## Services
